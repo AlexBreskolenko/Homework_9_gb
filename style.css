@@ -229,7 +229,35 @@ img {
   color: #f26376;
 }
 
-.main-section-four{
+.main-section-four {
   background-color: #222224;
   padding: 104px 230px 104px 230px;
+}
+
+.section-four__boxes {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.section-four__boxes img{
+ margin: 0 auto;
+}
+
+.section-four__boxes h3 {
+  margin-top: 28px;
+  margin-bottom: 16px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 19px;
+  color: #fbfbfb;
+  font-family: "Lato-Regular";
+}
+
+.section-four__boxes p {
+  font-weight: 300;
+  font-size: 13px;
+  text-align: center;
+  color: #fbfbfb;
+  font-family: "Lato-Ligt";
 }
