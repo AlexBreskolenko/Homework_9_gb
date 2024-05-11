@@ -240,8 +240,8 @@ img {
   gap: 30px;
 }
 
-.section-four__boxes img{
- margin: 0 auto;
+.section-four__boxes img {
+  margin: 0 auto;
 }
 
 .section-four__boxes h3 {
@@ -260,4 +260,19 @@ img {
   text-align: center;
   color: #fbfbfb;
   font-family: "Lato-Ligt";
+}
+
+.main-section__five {
+  background-image: url(./image/section-five-background.png);
+  height: 448px;
+}
+
+.section-five{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-five__content p{
+  
 }

@@ -10,3 +10,8 @@
   font-family: "Lato-Ligt";
   src: url(./fonts/Lato-Light.ttf);
 }
+
+@font-face {
+  font-family: "Lato-Italic";
+  src: url(./fonts/Lato-Italic.ttf);
+}
