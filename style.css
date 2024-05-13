@@ -52,6 +52,24 @@ img {
 .header-section__box-icon_two {
   display: flex;
   gap: 33px;
+  position: relative;
+}
+
+.header-section__number-five {
+  position: absolute;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  font-family: "Lato-Regular";
+  width: 19px;
+  height: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f16d7f;
+  border-radius: 50px;
+  right: -8px;
+  top: -6px;
 }
 
 .header-box__cursor {
