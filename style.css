@@ -360,7 +360,7 @@ img {
   padding: 7px;
 }
 
-/*************footer***************/
+/*************footer**************/
 
 .footer {
   padding-top: 24px;
@@ -390,4 +390,33 @@ img {
   cursor: pointer;
 }
 
-/**********Эфекты наведения на section three************/
+/**********Эфекты наведения************/
+.box-grid__general:hover .box-grid__img{
+  filter: brightness(0.5);
+}
+
+.box-grid__img_add {
+  position: absolute;
+  top: 188px;
+  left: 111px;
+  display: none;
+  font-family: "Lato-Regular";
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid #ffffff;
+  width: 139px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  text-decoration: none;
+}
+
+.box-grid__general {
+  position: relative;
+}
+
+.box-grid__general:hover .box-grid__img_add {
+  display: flex;
+}
