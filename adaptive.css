@@ -36,20 +36,20 @@
     gap: 15px;
   }
 
-  .section-four__boxes{
+  .section-four__boxes {
     flex-direction: column;
   }
 
-  .main-section-four{
+  .main-section-four {
     padding-top: 48px;
     padding-bottom: 64px;
   }
 
-  .main-section__five{
+  .main-section__five {
     height: 614px;
   }
 
-  .section-five__contents{
+  .section-five__contents {
     flex-direction: column;
     gap: 48px;
   }
@@ -110,5 +110,28 @@
 
   .header-section__box-icon_two {
     gap: 0;
+  }
+
+  .section-four__boxes {
+    flex-direction: column;
+  }
+
+  .main-section-four {
+    padding: 48px 13px 81px 14px;
+  }
+
+  .main-section__five {
+    height: 550px;
+  }
+  .section-five__contents {
+    flex-direction: column;
+    gap: 59px;
+  }
+
+  .section-footer {
+    flex-direction: column-reverse;
+    gap: 40px;
+    padding-top: 43px;
+    padding-bottom: 9px;
   }
 }
