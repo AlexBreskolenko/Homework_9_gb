@@ -35,6 +35,24 @@
     grid-template-rows: repeat(3, 582px);
     gap: 15px;
   }
+
+  .section-four__boxes{
+    flex-direction: column;
+  }
+
+  .main-section-four{
+    padding-top: 48px;
+    padding-bottom: 64px;
+  }
+
+  .main-section__five{
+    height: 614px;
+  }
+
+  .section-five__contents{
+    flex-direction: column;
+    gap: 48px;
+  }
 }
 
 /*Адаптив под мобильное устройство*/
